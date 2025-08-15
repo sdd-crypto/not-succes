@@ -1,0 +1,22 @@
+{
+  "authorized_targets": [
+    "192.168.1.0/24",
+    "10.0.0.0/16",
+    "172.16.0.0/12",
+    "127.0.0.1",
+    "localhost",
+    "testlab.local",
+    "*.lab.internal",
+    "*.test.local",
+    "penetration-test.lab",
+    "vulnerable-app.local"
+  ],
+  "excluded_targets": [
+    "192.168.1.1",
+    "10.0.0.1"
+  ],
+  "lab_mode": true,
+  "destructive_allowed": true,
+  "description": "Authorized scope for penetration testing in controlled lab environment",
+  "last_updated": "2024-01-01T00:00:00Z"
+}

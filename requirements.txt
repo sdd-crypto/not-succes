@@ -1,0 +1,8 @@
+requests>=2.31.0
+asyncio-compat>=0.1.2
+beautifulsoup4>=4.12.2
+cryptography>=41.0.3
+paramiko>=3.3.1
+dnspython>=2.4.2
+colorama>=0.4.6
+click>=8.1.7
